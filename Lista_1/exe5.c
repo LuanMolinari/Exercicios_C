@@ -1,5 +1,5 @@
 /*
-5) Elabore um programa que leia dois valores e apresente os resultados das quatro operações aritméticas
+Elabore um programa que leia dois valores e apresente os resultados das quatro operações aritméticas
 básicas realizadas entre eles.
 */
 

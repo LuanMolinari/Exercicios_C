@@ -1,5 +1,5 @@
 /*
-4) Desenvolva um algoritmo para um programa que leia três valores inteiros e apresente como resultado
+Desenvolva um algoritmo para um programa que leia três valores inteiros e apresente como resultado
 o valor do quadrado da soma dos três valores lidos.
 */
 
