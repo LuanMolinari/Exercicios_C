@@ -26,7 +26,7 @@ int main () {
 	printf (" %d x %d = %d\n", a, b, c);
 
 	div = (float)a/b;
-	printf (" %d : %d = %f\n", a, b, div);
+	printf (" %d : %d = %.2f\n", a, b, div);
 
 	return 0;
 }
