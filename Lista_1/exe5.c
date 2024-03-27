@@ -5,30 +5,28 @@ básicas realizadas entre eles.
 
 #include <stdio.h>
 
-int main(){
-    int a, b, c, soma, sub, mult;
-    float div;
+int main () {
+	
+	int a, b, c;
+	float div;
 
-    printf ("\n OPERAÇÕES ARITMÉTICAS. \n");
+	printf ("[OPERAÇÕES ARITMÉTICAS]\n\n");
 
-    printf ("\n Informe o primeiro valor: ");
-    scanf ("%d", &a);
+	printf ("Digite 2 números: \n");
+	scanf ("%d", &a);
+	scanf ("%d", &b);
 
-    printf ("\n Informe o segundo valor: ");
-    scanf ("%d", &b);
-    
-    soma = a + b;
-    printf ("\n %d + %d = %d\n", a, b, soma);
+	c = a+b;
+	printf ("\n %d + %d = %d\n", a, b, c);
 
-    sub = a - b;
-    printf ("\n %d - %d = %d\n", a, b, sub);
+	c = a-b;
+	printf (" %d - %d = %d\n", a, b, c);
 
-    mult = a * b;
-    printf ("\n %d x %d = %d\n", a, b, mult);
+	c = a*b;
+	printf (" %d x %d = %d\n", a, b, c);
 
-    div = (float)a / b;
-    printf ("\n %d : %d = %f\n", a, b, div);
+	div = (float)a/b;
+	printf (" %d : %d = %f\n", a, b, div);
 
-    return 0;
-    
+	return 0;
 }
