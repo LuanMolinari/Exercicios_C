@@ -4,22 +4,22 @@ o valor do quadrado da soma dos três valores lidos.
 */
 
 #include <stdio.h>
+#include <math.h>
 
 int main(){
     int a, b, c, soma;
-    printf ("\n Quadrado da soma de 3 valores. ");
-    printf ("\n Informe um valor para A: ");
+    float result;
+
+    printf ("\n [QUADRADO DA SOMA DE 3 VALORES.] ");
+    printf ("\n Digite 3 números inteiros: \n");
     scanf ("%d", &a);
-
-    printf ("\n Informe um valor para B: ");
     scanf ("%d", &b);
-
-    printf ("\n Informe um valor para C: ");
     scanf ("%d", &c);
 
-    soma = (a+b+c) * (a+b+c);
+    soma = (a+b+c);
+    result = pow(soma,2);
 
-    printf ("\n O quadrado da soma dos 3 valores é: %d \n", soma);
+    printf ("\n O quadrado da soma dos 3 valores é: %.1lf \n", result);
 
     return 0;
     
