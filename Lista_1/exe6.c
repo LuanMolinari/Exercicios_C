@@ -20,9 +20,9 @@ int main(){
 
     printf ("\n---------------------------------------------------\n");
 
-    printf ("\n Cotação do Dólar: R$ %f\n", cot);
-    printf ("\n Valor em Real: R$ %f\n", real);
-    printf ("\n Valor em Dólar: $ %f\n", dolar);
+    printf ("\n Cotação do Dólar: R$ %.2f\n", cot);
+    printf ("\n Valor em Real: R$ %.2f\n", real);
+    printf ("\n Valor em Dólar: $ %.2f\n", dolar);
 
     return 0;
     

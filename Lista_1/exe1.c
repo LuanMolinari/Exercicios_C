@@ -19,7 +19,7 @@ int main(){
 
     vol = PI * r * r * h;
 
-    printf ("\n O volume do cilindro é: %f \n", vol);
+    printf ("\n O volume do cilindro é: %.2f \n", vol);
 
     return 0;
     
