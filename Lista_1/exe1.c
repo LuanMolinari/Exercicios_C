@@ -10,6 +10,10 @@ mostrar o resultado ao usuário. Procure empregar o conceito de constantes e var
 
 int main(){
     float r, h, vol;
+    char unidade[20];
+
+    printf ("\n Escolha a unidade de medida utilizada (metros ou centímetros): "); //exibir a unidade de medida utilizada no resultado final.
+    scanf ("%19s", &unidade);
 
     printf ("\n Informe o raio da base do cilindro: ");
     scanf ("%f", &r);
@@ -19,7 +23,7 @@ int main(){
 
     vol = PI * r * r * h;
 
-    printf ("\n O volume do cilindro é: %.2f \n", vol);
+    printf ("\n O volume do cilindro é: %.2f %s³ \n", vol, unidade);
 
     return 0;
     
